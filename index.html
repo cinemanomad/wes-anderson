@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8">
+  
+    <!-- Metadati Dublin Core -->
+    <meta name="DC.Title" content="Wes Anderson - Home">
+    <meta name="DC.Creator" content="Ayca Kaya">
+    <meta name="DC.Subject" content="Wes Anderson, cinema d’autore, filmografia, regia, stile visivo, citazioni, progetto universitario">
+    <meta name="DC.Description" content="Un sito dedicato al regista Wes Anderson: biografia, filmografia, citazioni e stile visivo.">
+    <meta name="DC.Publisher" content="Ayca Kaya - Università di Bologna, Corso di Informatica Umanistica">
+    <meta name="DC.Date" content="2025-05-16">
+    <meta name="DC.Format" content="text/html">
+    <meta name="DC.Language" content="it">
+  
+    <title>Wes Anderson - Home</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Google Font: Quicksand -->
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+
+  <!-- CSS personalizzato -->
+  <link rel="stylesheet" href="CSS/style.css">
+
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Wes Anderson</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="biografia.html">Biografia</a></li>
+          <li class="nav-item"><a class="nav-link" href="filmografia.html">Filmografia</a></li>
+          <li class="nav-item"><a class="nav-link" href="web_project_plan.html">Web project plan</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Carosello -->
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="Immagini/wes.jpg" class="d-block w-100" alt="Slide 1">
+      </div>
+      <div class="carousel-item">
+        <img src="Immagini/wes2.jpg" class="d-block w-100" alt="Slide 2">
+      </div>
+      <div class="carousel-item">
+        <img src="Immagini/wes3.jpg" class="d-block w-100" alt="Slide 3">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Precedente</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Successiva</span>
+    </button>
+  </div>
+
+<!-- Sezione scopri -->
+<div class="container my-5">
+  <div class="text-center mb-4">
+    <h1>Scopri Wes Anderson</h1>
+    <h4>
+      Un sito realizzato per raccontare il mondo unico di Wes Anderson attraverso film, curiosità e citazioni.<br>
+      Scopri il progetto e lasciati ispirare.
+    </h4>
+  </div>
+
+  <div class="row g-4">
+
+    <!-- Card 1 -->
+    <div class="col-12 col-md-6">
+      <div class="card h-100">
+        <img src="Immagini/card1.jpg" class="card-img-top" alt="Biografia">
+        <div class="card-body">
+          <h5 class="card-title">Biografia</h5>
+          <p class="card-text">Scopri la vita e la carriera del regista.</p>
+          <a href="biografia.html" class="btn btn-primary">Vai</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="col-12 col-md-6">
+      <div class="card h-100">
+        <img src="immagini/card2.jpg" class="card-img-top" alt="Filmografia">
+        <div class="card-body">
+          <h5 class="card-title">Filmografia</h5>
+          <p class="card-text">Esplora i suoi film più iconici.</p>
+          <a href="filmografia.html" class="btn btn-primary">Vai</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+  <!-- Sezione introduttiva -->
+  <div class="container my-5">
+    <div class="row align-items-center justify-content-center">
+      <div class="col-md-6 text-center">
+        <img src="Immagini/Grand.jpg"
+             alt="Logo The Grand Budapest Hotel"
+             class="img-fluid mb-4" style="max-height: 360px;">
+        <blockquote class="blockquote">
+          <p class="fs-4 fst-italic">“Ci sono ancora deboli barlumi di civiltà in questo barbarico mattatoio che un tempo era conosciuto come umanità.”</p>
+          <footer class="blockquote-footer mt-2">M. Gustave, <cite title="The Grand Budapest Hotel">The Grand Budapest Hotel</cite> (2014)</footer>
+        </blockquote>
+      </div>
+    </div>
+  </div>
+
+  <!-- Trailer -->
+
+  <div class="container my-5 text-center">
+    <h2 class="mb-4">Trailer: The Grand Budapest Hotel</h2>
+    <p class="lead">
+      Considerato uno dei capolavori di Wes Anderson, <strong>The Grand Budapest Hotel</strong> racchiude tutto il suo stile: eleganza visiva, ironia raffinata e narrazione surreale.  
+      Scopri il trailer ufficiale qui sotto.
+    </p>
+    <div class="mx-auto" style="width: 840px;">
+      <div class="ratio ratio-16x9">
+        <iframe src="https://www.youtube.com/embed/1Fg5iWmQjwk"
+                title="The Grand Budapest Hotel - Trailer ufficiale"
+                allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+
+ <!-- Footer -->
+<footer class="bg-dark text-white text-center py-3 mt-5">
+  <p>Ayca Kaya |
+    <a class="text-white" href="https://www.unibo.it/it/studiare/dottorati-master-specializzazioni-e-altra-formazione/insegnamenti/insegnamento/2023/392953" target="_blank">
+      Corso di Informatica Umanistica 2025
+    </a> |
+    <a class="text-white" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">Creative Commons BY-NC-SA 4.0</a>|
+    <a class="text-white" href="web_project_plan.html">Web Project Plan</a> |
+  </p>
+</footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

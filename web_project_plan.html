@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <!-- Metadati Dublin Core -->
+<meta name="DC.Title" content="Wes Anderson - Web Project Plan">
+<meta name="DC.Creator" content="Ayca Kaya">
+<meta name="DC.Subject" content="Wes Anderson, Web Project Plan, regista, cinema, stile visivo, premi, carriera">
+<meta name="DC.Description" content="Pagina dedicata alla biografia di Wes Anderson: vita, formazione, carriera e premi.">
+<meta name="DC.Publisher" content="Ayca Kaya - Università di Bologna, Corso di Informatica Umanistica">
+<meta name="DC.Date" content="2025-05-16">
+<meta name="DC.Format" content="text/html">
+<meta name="DC.Format" content="text/css">
+<meta name="DC.Format" content="application/javascript">
+<meta name="DC.Language" content="it">
+
+  <title>Wes Anderson - Web Project Plan</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Google Font: Quicksand -->
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+
+  <!-- CSS personalizzato -->
+  <link rel="stylesheet" href="CSS/style.css">
+
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Wes Anderson</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link active" href="biografia.html">Biografia</a></li>
+          <li class="nav-item"><a class="nav-link" href="filmografia.html">Filmografia</a></li>
+          <li class="nav-item"><a class="nav-link" href="web_project_plan.html">Web project plan</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Breadcrumbs -->
+<nav aria-label="breadcrumb" class="bg-light p-3">
+  <ol class="breadcrumb mb-0">
+    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Web project plan</li>
+  </ol>
+</nav>
+
+<body>
+  <div class="container my-5">
+    <h1 class="text-center mb-4">Web Project Plan</h1>
+
+    <section class="mb-5">
+      <h1>1)Brief</h1>
+
+      <h3>Finalità ed Obiettivi</h3>
+    <p>Il sito nasce per raccontare la vita e le opere cinematografiche di Wes Anderson attraverso una struttura digitale intuitiva e accattivante, rivolta sia agli appassionati sia a chi scopre per la prima volta il suo stile. Gli obiettivi  specifici:</p>
+    <ul>
+      <li>Presentare una biografia del regista con una linea temporale illustrata;</li>
+      <li>Fornire schede dettagliate per ogni film, con immagini, trama e link al trailer;</li>
+      <li>Riprodurre lo stile visivo tipico di Wes Anderson per rendere l’esperienza coerente e coinvolgente;</li>
+      <li>Aiutare chi non conosce ancora il regista ad avvicinarsi al suo cinema in modo guidato e accessibile.</li>
+    </ul>
+
+    <section class="mb-5">
+      <h3>Pubblico di riferimento</h3>
+      <p>Il sito è rivolto principalmente a:</p>
+      <ul>
+        <li>Studenti che vogliono approfondire la figura di Wes Anderson</li>
+        <li>Docenti e formatori che cercano un esempio di narrazione digitale legata al cinema d'autore</li>
+        <li>Curiosi e nuovi spettatori che vogliono scoprire lo stile visivo e narrativo del regista</li>
+        <li>Utenti generici attratti da un’interfaccia semplice, creativa e ispirata all’estetica andersoniana</li>
+      </ul>
+    </section>
+
+    <section class="mb-5">
+      <h3>Accesso</h3>
+      <p>Il sito è accessibile pubblicamente e non richiede registrazione. È stato sviluppato con il framework Bootstrap 5, che garantisce:</p>
+      <ul>
+        <li>Struttura responsive automatica, con utilizzo delle classi container, row, col-* per adattarsi a tutti i dispositivi</li>
+        <li>Navigazione chiara e coerente, grazie all’uso di componenti come navbar, button, card, accordion</li>
+        <li>Compatibilità multi-browser (Chrome, Firefox, Safari, Edge)</li>
+        <li>Design accessibile, con attenzione a contrasto, leggibilità e struttura semantica</li>
+        <li>Tempi di caricamento ridotti, grazie alla leggerezza delle componenti modulari Bootstrap</li>
+      </ul>
+    </section> 
+    <section class="mb-5">
+      <h3> Contenuti e dati</h3>
+      <p>Il sito dedicato a Wes Anderson è un progetto multimediale e include una varietà di contenuti:</p>
+      <ul>
+        <li>Testi descrittivi: biografia del regista, descrizioni dettagliate dei film, informazioni su cast,ambientazioni e tematiche ricorrenti </li>
+        <li>Immagini ufficiali: locandine, fotogrammi tratti dai film, ritratti del regista e materiali promozionali</li>
+        <li>Video selezionati: link ai trailer ufficiali dei film, disponibili su piattaforme come YouTube</li>
+      </ul>
+      <p>Tutti i dati e le risorse sono stati rielaborati in chiave didattica e visuale, impaginati in HTML5 con il supporto di Bootstrap per una fruizione chiara, coerente e responsive.</p> 
+    </section>
+
+<h1>2)Benchmark</h1>
+
+<section class="mb-5">
+  <p>
+    Per progettare il sito sono stati analizzati alcuni esempi online legati al cinema e alle collezioni digitali. L'obiettivo era capire come presentare le informazioni in modo ordinato, visivo e facile da consultare.
+    </p>
+    
+    <ul>
+      <li>Criterion Collection è stato preso come riferimento per l’aspetto pulito delle pagine, con sfondo bianco, immagini grandi e una struttura semplice ma elegante delle schede filmiche.</li>
+    
+      <li>IMDbha ispirato l’organizzazione dei contenuti nelle schede film (titolo, trama, cast, trailer) e il modo in cui le informazioni sono divise per sezioni chiare.</li>
+    
+      <li>YouTube è stato usato per incorporare i trailer ufficiali dei film, rendendo ogni scheda più coinvolgente e interattiva.</li>
+    
+      <li>Wikipedia ha fornito informazioni biografiche e immagini, ma è servito anche come esempio di pagina ordinata e testuale, utile per strutturare la parte della biografia.</li>
+    
+      <li>W3Schools e HTML.it sono stati utilizzati per comprendere e applicare correttamente le parti tecniche di HTML, CSS e layout responsivo, con esempi chiari e spiegazioni semplici.</li>
+    </ul>
+    
+    <p>
+    Tutti questi siti hanno aiutato a creare un progetto coerente, ben strutturato e pensato per essere chiaro anche per chi visita il sito per la prima volta.
+    </p>
+
+    <h1>3)Struttura</h1>
+
+    <section class="mb-5">
+      <h3>Mappa concettuale</h3>
+      <p>
+        Questa mappa concettuale mostra in modo chiaro come è organizzato il sito su Wes Anderson.
+        Al centro c’è il regista, che rappresenta il tema principale del progetto. Intorno a lui si sviluppano i concetti principali: 
+        biografia,filmografiae schede film.
+      </p>
+      <p>
+        La biografia contiene anche una linea temporale, che serve per raccontare i momenti più importanti 
+        della sua vita in ordine cronologico. La filmografia è suddivisa in film, cortometraggi e spot pubblicitari, e ogni opera ha una propria scheda film.
+      </p>
+      <p>
+        Le schede film  sono pagine che raccolgono le informazioni principali: trama, trailer, titolo e altri metadati.
+      </p>
+      <p>
+        La mappa serve a far capire come sono collegate tra loro le sezioni del sito e come l’utente può navigare tra i contenuti in modo logico e ordinato.
+      </p>
+    </section>
+    
+      <p>Di seguito la mappa concettuale del progetto, che illustra le relazioni tra contenuti:</p>
+      <div class="container my-5">
+        <div class="row">
+          <div class="col-md-8 text-center">
+            <h5>Mappa concettuale</h5>
+            <img src="wes anderson.png" class="img-fluid border" alt="Mappa concettuale">
+          </div>
+          <div class="col-md-4 text-center">
+            <h5>Chiave Diagramma </h5>
+            <img src="Diagramma.png" class="img-fluid border" alt="Chiave Diagramma">
+          </div>
+        </div>
+      </div>
+
+    <h3>Schema delle dipendenze</h3>
+      <p></p>
+      <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    
+      <p>Di seguito la mappa concettuale del progetto, che illustra le relazioni tra contenuti:</p>
+      <img src="m_concettuale.png" class="img-fluid border" alt="Mappa concettuale Wes Anderson">
+    </section>
+
+    <h3>Schema delle categorie(metadati):</h3>
+      <p>All’interno dell’elemento <head>di ogni pagina del sito sono stati inseriti i metadati Dublin Core (DC), per descrivere in modo standardizzato le informazioni chiave della risorsa web e favorire l’interoperabilità, la catalogazione e l’indicizzazione da parte dei motori di ricerca o sistemi archivistici.</p>
+
+      <p>Ecco i metadati utilizzati:</p>
+  <ul>
+    <li><strong>DC.Title</strong>: il titolo della pagina</li>
+    <li><strong>DC.Creator</strong>: l’autore del sito </li>
+    <li><strong>DC.Subject</strong>: l’argomento principale trattato nella pagina (temi, parole chiave)</li>
+    <li><strong>DC.Description</strong>: una breve descrizione testuale dei contenuti della pagina</li>
+    <li><strong>DC.Publisher</strong>: l’ente o persona responsabile della pubblicazione </li>
+    <li><strong>DC.Date</strong>: la data di creazione della pagina</li>
+    <li><strong>DC.Format</strong>: il formato del contenuto</li>
+    <li><strong>DC.Language</strong>: la lingua del contenuto</li>
+  </ul>
+
+  <p>Questi metadati sono presenti in tutte le pagine principali del sito, tra cui la homepage, la biografia, la filmografia e le schede filmiche, e rappresentano una scelta consapevole per garantire rigore documentale e tracciabilità del progetto all’interno di un contesto accademico.</p>
+</section>
+    
+
+    <h1>4)Layout</h1>
+    <section class="mb-5">
+<p>
+Il layout del sito dedicato a Wes Anderson è stato progettato per riflettere la simmetria, i colori pastello e l’estetica pulita tipica del regista. <br>Tutte le pagine sono costruite con il framework Bootstrap 5, utilizzando la griglia a 12 colonne per garantire un design completamente responsive.
+</p>
+
+Caratteristiche principali:
+<ul>
+  <li>Navbar fissa in alto: presente in tutte le pagine, consente una navigazione coerente tra le sezioni (homepage, biografia, filmografia, citazioni, web project plan).</li>
+  <li>Breadcrumbs: incluse in tutte le pagine secondarie per facilitare l’orientamento dell’utente.</li>
+  <li>Carosello (index.html): slideshow con immagini a tutta larghezza dedicate a Wes Anderson, per un’introduzione visiva coinvolgente.</li>
+  <li>Card Bootstrap: utilizzate per la galleria film, disposte in griglie responsive (row-cols-md-3) con immagine, titolo e pulsante.</li>
+  <li>Timeline verticale: presente nella pagina “Biografia”, realizzata con posizionamento assoluto e linea centrale per mostrare eventi in ordine cronologico.</li>
+  <li>Footer: presente in ogni pagina, con link utili e accesso diretto al Web Project Plan.</li>
+</ul>
+
+<strong>Colori e font:</strong>
+<ul>
+  <li>Font principale: Quicksand, da Google Fonts, usato per il corpo del testo.</li>
+  <li>Font titoli: Georgia, usato per i titoli principali (es. h3), richiama uno stile rétro ed elegante.</li>
+</ul>
+
+<strong>Palette colori utilizzata:</strong>
+
+<h3 class="mt-4 mb-3">Palette colori utilizzata:</h3>
+
+<section class="d-flex flex-wrap gap-4 my-4 justify-content-start">
+
+  <div class="d-flex flex-column align-items-center">
+    <div class="color-block" style="background-color: #FFC857;"></div>
+    <p class="note text-center mt-2">#FFC857<br>Giallo pastello<br>(bg-wes, bottoni)</p>
+  </div>
+
+  <div class="d-flex flex-column align-items-center">
+    <div class="color-block" style="background-color: #88d3d7;"></div>
+    <p class="note text-center mt-2">#88d3d7<br>Azzurro pastello<br>(hover, bordi)</p>
+  </div>
+
+  <div class="d-flex flex-column align-items-center">
+    <div class="color-block" style="background-color: #d3427c;"></div>
+    <p class="note text-center mt-2">#d3427c<br>Rosa intenso<br>(titoli h1/h2)</p>
+  </div>
+
+  <div class="d-flex flex-column align-items-center">
+    <div class="color-block" style="background-color: #fffaf6;"></div>
+    <p class="note text-center mt-2">#fffaf6<br>Beige chiarissimo<br>(sfondo sito)</p>
+  </div>
+
+  <div class="d-flex flex-column align-items-center">
+    <div class="color-block" style="background-color: #2f2f2f;"></div>
+    <p class="note text-center mt-2">#2f2f2f<br>Grigio scuro<br>(testo)</p>
+  </div>
+
+</section>
+
+
+ <h1>5)Usabilità</h1>
+
+    <section class="mb-5">
+      <p>
+        Il sito è stato pensato per offrire un'esperienza di navigazione facile, chiara e adatta a tutti, indipendentemente dal tipo di dispositivo utilizzato (computer, tablet o smartphone).
+        </p>
+        
+        <p>Ecco i principali accorgimenti adottati:</p>
+        <ul>
+          <li>Struttura chiara: tutte le pagine seguono la stessa organizzazione, con una barra di navigazione fissa in alto e contenuti divisi in sezioni ben distinte.</li>
+          
+          <li>Design responsivo: grazie a Bootstrap, il sito si adatta automaticamente a tutte le dimensioni dello schermo, garantendo una buona visualizzazione sia su desktop che su dispositivi mobili.</li>
+          
+          <li>Navigazione semplice: l’utente può muoversi facilmente nel sito usando il menu principale, i pulsanti e i collegamenti tra le varie pagine.</li>
+          
+          <li>Testi leggibili: sono stati scelti font chiari e facili da leggere, con una dimensione e uno spazio tra le righe adatti alla lettura su schermo.</li>
+          
+          <li>Colori ben bilanciati: la palette riprende i colori tipici dello stile di Wes Anderson, ma è stata studiata anche per garantire un buon contrasto e facilitare la lettura.</li>
+          
+          <li>Accessibilità: tutte le immagini hanno un testo alternativo (attributo "alt") e il codice HTML segue una struttura semantica per aiutare anche gli screen reader. Sono presenti anche metadati per l’indicizzazione nei motori di ricerca.</li>
+        </ul>
+        
+        <p>
+        L’obiettivo è permettere a ogni tipo di utente — che sia uno studente, un appassionato di cinema o semplicemente un visitatore curioso — di trovare facilmente le informazioni, senza difficoltà e con un’esperienza coerente con l’atmosfera del sito.
+        </p>
+</section>
+    
+ <h1>6)Servzi</h1>
+ <section class="mb-5">
+  <p>
+    Oltre alla barra di navigazione principale (navbar) presente in tutte le pagine, il sito offre altri strumenti utili per aiutare l’utente a muoversi tra i contenuti in modo semplice e chiaro.
+    </p>
+    
+    <ul>
+      <li>Breadcrumbs: visibili in tutte le pagine (Biografia, Filmografia, Schede film, Cortometraggi e spot pubblictari), aiutano l’utente a capire sempre in che punto del sito si trova.</li>
+      
+      <li>Carosello: nella homepage è presente uno slideshow con immagini a tutta larghezza che rappresentano lo stile visivo di Wes Anderson.</li>
+      
+      <li>Card responsive: nella sezione “Filmografia” ogni film è mostrato con una card che contiene immagine, titolo e un pulsante per aprire la scheda dettagliata.</li>
+    
+      <li>Filtri per genere: nella pagina Filmografia è presente un semplice sistema di filtro con tasti cliccabili che permette di visualizzare le categorie “Tutti”, “Film”, “Spot pubblicitari” e “Cortometraggi”.</li>
+    
+      <li>Trailer ufficiali: ogni scheda filmica include un link al trailer del film su YouTube.</li>
+      
+      <li>Pulsante di approfondimento: nella pagina Biografia è presente un pulsante che rimanda alla pagina Wikipedia di Wes Anderson per chi vuole leggere di più.</li>
+      
+      <li>Condivisione social: in ogni scheda filmica c’è una sezione “Condividi” con icone che permettono all’utente di condividere la pagina tramite Facebook, X, WhatsApp, Instagram, Telegram, LinkedIn o Email.</li>
+    </ul>
+</section>
+
+<h1>7)Bibliografia e sitografia</h1>
+<section class="mb-5">
+  <ul>
+    <li>
+      Creazione grafica della mappa concettuale – 
+      <a href="https://www.canva.com/" target="_blank">https://www.canva.com</a>
+    </li>
+    <li>
+      Diapositive e videolezioni sulla piattaforma – 
+      <a href="https://virtuale.unibo.it/" target="_blank">https://virtuale.unibo.it</a>
+    </li>
+    <li>
+      Siti web su vari aspetti della programmazione – 
+      <a href="https://www.w3schools.com/howto/" target="_blank">https://www.w3schools.com/howto/</a> ; 
+      <a href="https://www.html.it/" target="_blank">https://www.html.it/</a>
+      <a href="https://getbootstrap.com/" target="_blank">https://getbootstrap.com</a> ; 
+      <a href="https://mdbootstrap.com/docs/standard/extended/timeline/" target="_blank">https://mdbootstrap.com</a>
+    </li>
+    <li>
+      Font del sito web – 
+      <a href="https://fonts.google.com/" target="_blank">https://fonts.google.com</a>
+    </li>
+    <li>
+      Framework CSS utilizzato per il layout responsive del sito – 
+      <a href="https://getbootstrap.com/" target="_blank">https://getbootstrap.com</a>
+    </li>
+    <li>
+      Timeline – ispirata alla struttura proposta su 
+      <a href="https://mdbootstrap.com/docs/standard/extended/timeline/" target="_blank">https://mdbootstrap.com</a>
+    </li>
+    <li>
+      Trailer video dei film – incorporati da 
+      <a href="https://www.youtube.com/" target="_blank">https://www.youtube.com</a>
+    </li>
+    <li>
+      Biografia di Wes Anderson – sintesi elaborata a partire da fonti pubbliche come 
+      <a href="https://it.wikipedia.org/wiki/Wes_Anderson" target="_blank">Wikipedia ; </a>
+      <a href="https://www.imdb.com/it/name/nm0027572/" target="_blank">IMDb e </a>
+      <a href="https://www.mymovies.it/persone/wes-anderson/56168/" target="_blank">mymovies.it</a>
+      
+    </li>
+    <li>
+      Immagini dei film – tratte da 
+      <a href="https://www.wikipedia.org/" target="_blank">https://www.wikipedia.org ; </a>
+      <a href="https://www.mymovies.it/persone/wes-anderson/56168/" target="_blank">mymovies.it e </a>
+      <a href="https://www.imdb.com/it/name/nm0027572/" target="_blank">IMDb</a>
+    </li>
+    <li>
+      Modifica delle immagini – 
+      <a href="https://www.img2go.com/" target="_blank">https://www.img2go.com</a>
+    </li>
+    <li>
+      Sito web pubblicato tramite GitHub Pages – 
+      <a href="https://github.com/tuo-repo" target="_blank">https://github.com/tuo-repo</a>
+    </li>
+  </ul>
+</section>
+</div>
+
+
+
+    <!-- Footer full screen -->
+    <footer class="bg-dark text-white text-center py-3 mt-5">
+      <p>Ayca Kaya |
+        <a class="text-white" href="https://www.unibo.it/it/studiare/dottorati-master-specializzazioni-e-altra-formazione/insegnamenti/insegnamento/2023/392953" target="_blank">
+          Corso di Informatica Umanistica 2025
+        </a> |
+        <a class="text-white" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">
+          Creative Commons BY-NC-SA 4.0
+        </a> |
+        <a class="text-white" href="web_project_plan.html">Web Project Plan</a>
+      </p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

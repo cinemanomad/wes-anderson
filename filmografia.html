@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <!-- Metadati Dublin Core -->
+<meta name="DC.Title" content="Wes Anderson - Filmografia">
+<meta name="DC.Creator" content="Ayca Kaya">
+<meta name="DC.Subject" content="Wes Anderson, filmografia, cinema, regia, cortometraggi, spot pubblicitari">
+<meta name="DC.Description" content="Una panoramica della filmografia completa di Wes Anderson: film, corti e spot.">
+<meta name="DC.Publisher" content="Ayca Kaya - Università di Bologna, Corso di Informatica Umanistica">
+<meta name="DC.Date" content="2025-05-16">
+<meta name="DC.Format" content="text/html">
+<meta name="DC.Format" content="text/css">
+<meta name="DC.Format" content="application/javascript">
+<meta name="DC.Language" content="it">
+
+  <title>Wes Anderson - Filmografia</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Google Font: Quicksand -->
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+
+  <!-- CSS personalizzato -->
+  <link rel="stylesheet" href="CSS/style.css">
+
+</head>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<div class="container-fluid">
+<a class="navbar-brand" href="index.html">Wes Anderson</a>
+<button class="navbar-toggler" data-bs-target="#navbarNav" data-bs-toggle="collapse" type="button">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarNav">
+<ul class="navbar-nav ms-auto">
+<li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+<li class="nav-item"><a class="nav-link" href="biografia.html">Biografia</a></li>
+<li class="nav-item"><a class="nav-link active" href="filmografia.html">Filmografia</a></li>
+<li class="nav-item"><a class="nav-link" href="web_project_plan.html">Web project plan</a></li>
+</ul>
+</div>
+</div>
+</nav>
+
+<!-- Breadcrumbs -->
+<nav aria-label="breadcrumb" class="bg-light p-3">
+  <ol class="breadcrumb mb-0">
+    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Filmografia</li>
+  </ol>
+</nav>
+
+
+<!-- Titolo e filtri -->
+<div class="container text-center my-5">
+<h1>Filmografia di Wes Anderson</h1>
+<p class="lead">Esplora tutte le opere: film, cortometraggi e spot pubblicitari.</p>
+<div class="mb-4">
+<button class="btn btn-outline-wes m-1" onclick="filterSelection('all')">Tutti</button>
+<button class="btn btn-outline-wes m-1" onclick="filterSelection('film')">Film</button>
+<button class="btn btn-outline-wes m-1" onclick="filterSelection('cortometraggio')">Cortometraggi</button>
+<button class="btn btn-outline-wes m-1" onclick="filterSelection('spot')">Spot pubblicitari</button>
+</div>
+</div>
+<!-- Cards -->
+<div class="container mb-5">
+<div class="row row-cols-1 row-cols-md-3 g-4">
+
+
+<!-- Film: Bottle Rocket (1996) -->
+<div class="col filter-item film">
+<div class="card h-100">
+<img alt="Bottle Rocket (1996)" class="card-img-top" src="Immagini/bootlerocket.jpg" style="height: 400px; object-fit: cover;"/>
+<div class="card-body">
+<h5 class="card-title">Bottle Rocket (1996)</h5>
+<p class="card-text">Il primo lungometraggio di Anderson, tratto dal suo corto del 1994.</p>
+<div><span class="tag">Film</span></div>
+<a href="scheda_bottle_rocket_1996.html" class="btn btn-outline-wes mt-3">Vai alla scheda</a>
+</div>
+</div>
+</div>
+<!-- Film: Rushmore (1998) -->
+<div class="col filter-item film">
+<div class="card h-100">
+<img alt="Rushmore (1998)" class="card-img-top" src="immagini/rushmore.jpg" style="height: 400px; object-fit: cover;"/>
+<div class="card-body">
+<h5 class="card-title">Rushmore (1998)</h5>
+<p class="card-text">Un ragazzo geniale e le sue avventure scolastiche e romantiche.</p>
+<div><span class="tag">Film</span></div>
+<a href="scheda_rushmore.html" class="btn btn-outline-wes mt-3">Vai alla scheda</a>
+</div>
+</div>
+</div>
+<!-- Film: The Royal Tenenbaums (2001) -->
+<div class="col filter-item film">
+<div class="card h-100">
+<img alt="The Royal Tenenbaums (2001)" class="card-img-top" src="immagini/royaltenenbaums.jpg" style="height: 400px; object-fit: cover;"/>
+<div class="card-body">
+<h5 class="card-title">The Royal Tenenbaums (2001)</h5>
+<p class="card-text">Una famiglia di ex bambini prodigio affronta il ritorno del padre.</p>
+<div><span class="tag">Film</span></div>
+<a href="scheda_royal_tenenbaums.html" class="btn btn-outline-wes mt-3">Vai alla scheda</a>
+</div>
+</div>
+</div>
+<!-- Film: The Life Aquatic with Steve Zissou (2004) -->
+<div class="col filter-item film">
+<div class="card h-100">
+<img alt="The Life Aquatic with Steve Zissou (2004)" class="card-img-top" src="immagini/TheLifeAquaticwithSteveZissou.jpg" style="height: 400px; object-fit: cover;"/>
+<div class="card-body">
+<h5 class="card-title">The Life Aquatic with Steve Zissou (2004)</h5>
+<p class="card-text">Un documentarista marino parte alla caccia di uno squalo giaguaro.</p>
+<div><span class="tag">Film</span></div>
+<a href="scheda_life_aquatic.html" class="btn btn-outline-wes mt-3">Vai alla scheda</a>
+</div>
+</div>
+</div>
+<!-- Film: The Darjeeling Limited (2007) -->
+<div class="col filter-item film">
+<div class="card h-100">
+<img alt="The Darjeeling Limited (2007)" class="card-img-top" src="immagini/thedarjeeninglimited.jpg" style="height: 400px; object-fit: cover;"/>
+<div class="card-body">
+<h5 class="card-title">The Darjeeling Limited (2007)</h5>
+<p class="card-text">Tre fratelli in viaggio spirituale in India, tra incontri surreali e legami ritrovati.</p>
+<div><span class="tag">Film</span></div>
+<a href="scheda_darjeeling_limited.html" class="btn btn-outline-wes mt-3">Vai alla scheda</a>
+</div>
+</div>
+</div>
+<!-- Film: Fantastic Mr. Fox (2009) -->
+<div class="col filter-item film">
+<div class="card h-100">
+<img alt="Fantastic Mr. Fox (2009)" class="card-img-top" src="immagini/fantasticmr.fox.jpg" style="height: 400px; object-fit: cover;"/>
+<div class="card-body">
+<h5 class="card-title">Fantastic Mr. Fox (2009)</h5>
+<p class="card-text">Film animato tratto da Roald Dahl, una volpe ruba ai contadini.</p>
+<div><span class="tag">Film</span></div>
+<a href="scheda_fantastic_mr_fox.html" class="btn btn-outline-wes mt-3">Vai alla scheda</a>
+</div>
+</div>
+</div>
+<!-- Film: Moonrise Kingdom (2012) -->
+<div class="col filter-item film">
+<div class="card h-100">
+<img alt="Moonrise Kingdom (2012)" class="card-img-top" src="immagini/moonrisekingdom.jpg" style="height: 400px; object-fit: cover;"/>
+<div class="card-body">
+<h5 class="card-title">Moonrise Kingdom (2012)</h5>
+<p class="card-text">Due adolescenti si innamorano e scappano su un'isola.</p>
+<div><span class="tag">Film</span></div>
+<a href="scheda_moonrise_kingdom.html" class="btn btn-outline-wes mt-3">Vai alla scheda</a>
+</div>
+</div>
+</div>
+<!-- Film: The Grand Budapest Hotel (2014) -->
+<div class="col filter-item film">
+<div class="card h-100">
+<img alt="The Grand Budapest Hotel (2014)" class="card-img-top" src="immagini/grandbudapesthotel.jpg" style="height: 400px; object-fit: cover;"/>
+<div class="card-body">
+<h5 class="card-title">The Grand Budapest Hotel (2014)</h5>
+<p class="card-text">Un concierge e un giovane apprendista in un'avventura europea.</p>
+<div><span class="tag">Film</span></div>
+<a href="scheda_grand_budapest.html" class="btn btn-outline-wes mt-3">Vai alla scheda</a>
+</div>
+</div>
+</div>
+<!-- Film: Isle of Dogs (2018) -->
+<div class="col filter-item film">
+<div class="card h-100">
+<img alt="Isle of Dogs (2018)" class="card-img-top" src="immagini/isleofdogs.jpg" style="height: 400px; object-fit: cover;"/>
+<div class="card-body">
+<h5 class="card-title">Isle of Dogs (2018)</h5>
+<p class="card-text">In Giappone, un ragazzo cerca il suo cane esiliato su un'isola.</p>
+<div><span class="tag">Film</span></div>
+<a href="scheda_isle_of_dogs.html" class="btn btn-outline-wes mt-3">Vai alla scheda</a>
+</div>
+</div>
+</div>
+<!-- Film: The French Dispatch (2021) -->
+<div class="col filter-item film">
+<div class="card h-100">
+<img alt="The French Dispatch (2021)" class="card-img-top" src="immagini/frenchdispatch.jpg" style="height: 400px; object-fit: cover;"/>
+<div class="card-body">
+<h5 class="card-title">The French Dispatch (2021)</h5>
+<p class="card-text">Una celebrazione elegante del giornalismo, della Francia e della narrazione.</p>
+<div><span class="tag">Film</span></div>
+<a href="scheda_french_dispatch.html" class="btn btn-outline-wes mt-3">Vai alla scheda</a>
+</div>
+</div>
+</div>
+<!-- Film: Asteroid City (2023) -->
+<div class="col filter-item film">
+<div class="card h-100">
+<img alt="Asteroid City (2023)" class="card-img-top" src="immagini/asteroidcity.jpg" style="height: 400px; object-fit: cover;"/>
+<div class="card-body">
+<h5 class="card-title">Asteroid City (2023)</h5>
+<p class="card-text">Un incontro scientifico nel deserto e i suoi misteriosi risvolti.</p>
+<div><span class="tag">Film</span></div>
+<a href="scheda_asteroid_city.html" class="btn btn-outline-wes mt-3">Vai alla scheda</a>
+</div>
+</div>
+</div>
+<!-- Cortometraggio: Bottle Rocket (1994) -->
+<div class="col filter-item cortometraggio">
+<div class="card h-100">
+<img alt="Bottle Rocket (1994)" class="card-img-top" src="immagini/boottlerocketshortfilm.jpg" style="height: 400px; object-fit: cover;"/>
+<div class="card-body">
+<h5 class="card-title">Bottle Rocket (1994)</h5>
+<p class="card-text">Il cortometraggio originale da cui nacque il film del 1996.</p>
+<div><span class="tag">Cortometraggio</span></div>
+<a href="scheda_bottle_rocket.html" class="btn btn-outline-wes mt-3">Vai alla scheda</a>
+</div>
+</div>
+</div>
+<!-- Cortometraggio: Hotel Chevalier (2007) -->
+<div class="col filter-item cortometraggio">
+<div class="card h-100">
+<img alt="Hotel Chevalier (2007)" class="card-img-top" src="immagini/hotelchevalier.jpg" style="height: 400px; object-fit: cover;"/>
+<div class="card-body">
+<h5 class="card-title">Hotel Chevalier (2007)</h5>
+<p class="card-text">Prequel romantico e malinconico di The Darjeeling Limited</p>
+<div><span class="tag">Cortometraggio</span></div>
+<a href="scheda_hotel_chevalier.html" class="btn btn-outline-wes mt-3">Vai alla scheda</a>
+</div>
+</div>
+</div>
+<!-- Cortometraggio: Castello Cavalcanti (2013) -->
+<div class="col filter-item cortometraggio">
+<div class="card h-100">
+<img alt="Castello Cavalcanti (2013)" class="card-img-top" src="immagini/castellocavalcanti.jpg" style="height: 400px; object-fit: cover;"/>
+<div class="card-body">
+<h5 class="card-title">Castello Cavalcanti (2013)</h5>
+<p class="card-text">Un pilota si schianta in un pittoresco villaggio italiano degli anni ’50.</p>
+<div><span class="tag">Cortometraggio</span></div>
+<a href="scheda_castello_cavalcanti.html" class="btn btn-outline-wes mt-3">Vai alla scheda</a>
+</div>
+</div>
+</div>
+<!-- Cortometraggio: Come Together – H&M (2016) -->
+<div class="col filter-item cortometraggio">
+<div class="card h-100">
+<img alt="Come Together – H&amp;M (2016)" class="card-img-top" src="immagini/cometogether.jpg" style="height: 400px; object-fit: cover;"/>
+<div class="card-body">
+<h5 class="card-title">Come Together – H&amp;M (2016)</h5>
+<p class="card-text">Cortometraggio natalizio con Adrien Brody per H&amp;M.</p>
+<div><span class="tag">Cortometraggio</span></div>
+<a href="scheda_come_together.html" class="btn btn-outline-wes mt-3">Vai alla scheda</a>
+</div>
+</div>
+</div>
+<!-- Cortometraggio: The Wonderful Story of Henry Sugar (2023) -->
+<div class="col filter-item cortometraggio">
+<div class="card h-100">
+<img alt="The Wonderful Story of Henry Sugar (2023)" class="card-img-top" src="immagini/wonderfulstoryofhenrysugar.jpg" style="height: 400px; object-fit: cover;"/>
+<div class="card-body">
+<h5 class="card-title">The Wonderful Story of Henry Sugar (2023)</h5>
+<p class="card-text">Tratto da Roald Dahl, un uomo impara a vedere senza usare gli occhi.</p>
+<div><span class="tag">Cortometraggio</span></div>
+<a href="scheda_henry_sugar.html" class="btn btn-outline-wes mt-3">Vai alla scheda</a>
+</div>
+</div>
+</div>
+<!-- Spot: American Express – My Life. My Card (2006) -->
+<div class="col filter-item spot">
+<div class="card h-100">
+<img alt="American Express – My Life. My Card (2006)" class="card-img-top" src="immagini/mylifemycard.jpg" style="height: 400px; object-fit: cover;"/>
+<div class="card-body">
+<h5 class="card-title">American Express – My Life. My Card (2006)</h5>
+<p class="card-text">Spot metacinematografico con Wes stesso protagonista.</p>
+<div><span class="tag">Spot pubblicitario</span></div>
+<a href="scheda_american_express.html" class="btn btn-outline-wes mt-3">Vai alla scheda</a>
+</div>
+</div>
+</div>
+<!-- Spot: Prada – Candy L’Eau (2013) -->
+<div class="col filter-item spot">
+<div class="card h-100">
+<img alt="Prada – Candy L’Eau (2013)" class="card-img-top" src="immagini/pradacandy.jpg" style="height: 400px; object-fit: cover;"/>
+<div class="card-body">
+<h5 class="card-title">Prada – Candy L’Eau (2013)</h5>
+<p class="card-text">Corto fiabesco per i 100 anni del Meisterstück, firmato da Wes Anderson con il suo stile unico.Commedia romantica in miniatura per Prada.</p>
+<div><span class="tag">Spot pubblicitario</span></div>
+<a href="scheda_prada_candy.html" class="btn btn-outline-wes mt-3">Vai alla scheda</a>
+</div>
+</div>
+</div>
+
+<!-- Spot: Montblanc – The Mechanical Tale (2023) -->
+<div class="col filter-item spot">
+<div class="card h-100">
+<img alt="Montblanc – The Mechanical Tale (2023)" class="card-img-top" src="immagini/montblanc.jpg" style="height: 400px; object-fit: cover;"/>
+<div class="card-body">
+<h5 class="card-title">Montblanc – The Mechanical Tale (2023)</h5>
+<p class="card-text">Una favola elegante e ingegnosa per Montblanc.</p>
+<div><span class="tag">Spot pubblicitario</span></div>
+<a href="scheda_mont_blanc.html" class="btn btn-outline-wes mt-3">Vai alla scheda</a>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+
+ <!-- Footer -->
+ <footer class="bg-dark text-white text-center py-3 mt-5">
+  <p>Ayca Kaya |
+    <a class="text-white" href="https://www.unibo.it/it/studiare/dottorati-master-specializzazioni-e-altra-formazione/insegnamenti/insegnamento/2023/392953" target="_blank">
+      Corso di Informatica Umanistica 2025
+    </a> |
+    <a class="text-white" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">Creative Commons BY-NC-SA 4.0</a>|
+    <a class="text-white" href="web_project_plan.html">Web Project Plan</a> |
+  </p>
+</footer>
+
+<!-- JS Filtri -->
+<script>
+function filterSelection(category) {
+  const items = document.getElementsByClassName("filter-item");
+  if (category === "all") category = "";
+  for (let i = 0; i < items.length; i++) {
+    items[i].style.display = items[i].classList.contains(category) || category === "" ? "block" : "none";
+  }
+}
+filterSelection("all");
+</script>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
