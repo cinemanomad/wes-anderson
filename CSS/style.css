@@ -23,13 +23,6 @@ footer {
   color: #5c3c0d;
 }
 
-.btn-primary {
-  background-color: #FFC857  ;
-  border-color: #FFC857 ;
-  color: #2f2f2f;
-  font-weight: 600;
-}
-
 .btn-primary:hover,
 {
   background-color: #88d3d7;
