@@ -31,8 +31,7 @@ footer {
 }
 
 .btn-primary:hover,
-.btn-primary:focus,
-.btn-primary:active {
+{
   background-color: #88d3d7;
   border-color: #88d3d7;
   color: #2f2f2f;
