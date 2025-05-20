@@ -6,6 +6,7 @@ body {
   line-height: 1.6;
 }
 
+
 .tag {
   font-size: 0.8rem;
   background-color: #eee;
@@ -14,14 +15,17 @@ body {
   margin-right: 4px;
 }
 
+
 footer {
   font-size: 0.9rem;
 }
+
 
  h3 {
   font-family: 'Georgia', serif;
   color: #5c3c0d;
 }
+
 
 .btn-primary {
   background-color: #FFC857  ;
@@ -29,6 +33,7 @@ footer {
   color: #2f2f2f;
   font-weight: 600;
 }
+
 
 .btn-primary:hover, {
   background-color: #88d3d7;
